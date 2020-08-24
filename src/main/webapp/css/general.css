@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.acceptButton {
+	position: relative;
+	box-shadow: 0px 0px 0px 2px #C98ADE;
+	background: linear-gradient(to bottom, #688bc7 5%, #9249a1 100%);
+	background-color: #688bc7;
+	border-radius: 5%;
+	border: 1px solid #00071a;
+	display: inline-block;
+	cursor: pointer;
+	color: #fafafa;
+	font-family: Arial;
+	padding: 0.4%;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #000000;
+	margin: 0.2%;
+}
+
+.acceptButton:hover {
+	background: linear-gradient(to bottom, #9249a1 5%, #688bc7 100%);
+	background-color: #C98ADE;
+}
+
+.acceptButton:active {
+	
+	top: 1px;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 4.5%;
+	background: #B298BB;
+	border-bottom: 1px solid transparent;
+}
+
+.fondo-pagina{
+	background-color: #D6D6D6;
+}
+.white-text{
+	color:#fff;
+}
+.black-text{
+	color:#000;
+}
+
+.text-center {
+	text-align: center;
+}

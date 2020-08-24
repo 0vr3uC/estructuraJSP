@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<persistence version="2.0" xmlns:persistence="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+	<persistence-unit name="sincensura">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jta-data-source>java:/nsc</jta-data-source>
+		<non-jta-data-source>java:/nsc</non-jta-data-source>
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.connection.autoReconnect">true</property>
+			<property name="hibernate.connection.CharSet" value="UTF-8" />
+			<property name="hibernate.connection.characterEncoding" value="UTF-8" />
+			<property name="hibernate.connection.useUnicode" value="true" />
+		</properties>
+
+		<class>nsc.jpa.Usuario</class>
+		<class>nsc.jpa.Genero</class>
+		<class>nsc.jpa.Noticia</class>
+	</persistence-unit>
+</persistence>

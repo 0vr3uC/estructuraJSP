@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.cuerpoPrincipal {
+	margin-top: 3%;
+}
+
+.menu {
+	float: left;
+	margin-left: 5%;
+}
+
+.imagen-menu {
+	width: 50%;
+	height: 50%;
+}

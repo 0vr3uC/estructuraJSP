@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.divcentral {
+	display: block;
+	text-align: center;
+	background-color: #D6BEDA;
+	border: 3px black solid;
+	height: 50%;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+
+.divcentral p {
+	text-align: center;
+	margin-right: 1%;
+	margin-left: 1%;
+	font-size: 1.5em;
+	color: #000;
+}
+
+.titulo-inicio {
+	margin-top: 4%;
+	font: Arial;
+	font-size: 5em;
+}
+
+.enlace-iconos {
+	font-size: 1.1em;
+	color: #000;
+}
+
+.enlace-iconos:hover {
+	font-size: 1.1em;
+	color: #C3D0D5;
+}
