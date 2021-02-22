@@ -1,5 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@page import="nsc.common.Label"%>
+<%@page import="ford.common.Label"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,17 +7,16 @@
 <link href="${pageContext.request.contextPath}/resources/css/index.css"
 	type="text/css" rel="stylesheet" />
 <meta charset="UTF-8">
-<title>Inicio NSC</title>
+<title>Inicio proyectoFord</title>
 </head>
 <body class="fondo-pagina">
-	<h1 class="text-center titulo-inicio">Noticias Sin Censura</h1>
+	<h1 class="text-center titulo-inicio">Proyecto Ford</h1>
 	<div class="divcentral">
 		<p><%=Label.getLabel("presentacion.inicio")%></p>
-		<a class="enlace-iconos" target="_blank" href="https://icons8.com/">Iconos
-			gratuitos utilizados</a> <br> <br> <input type="button"
+		<br> 
+		<input type="button"
 			class="acceptButton" value="<%=Label.getLabel("aceptar")%>"
 			onclick="document.location.href = './principal'">
-
 	</div>
 </body>
 </html>
