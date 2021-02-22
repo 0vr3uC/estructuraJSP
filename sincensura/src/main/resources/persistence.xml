@@ -4,13 +4,21 @@
 
 	<persistence-unit name="org.jbpm.domain" transaction-type="RESOURCE_LOCAL">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
 		<class>ford.jpa.Usuario</class>
+
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
-			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://192.168.0.25:3306/noticias" />
-			<property name="javax.persistence.jdbc.user" value="ovreuc" />
-			<property name="javax.persistence.jdbc.password" value="MCDO8246" />
+
+
+			<!-- Valores a cambiar, poner url, user, pass y dialecto -->
+			<property name="javax.persistence.jdbc.url" value="**" />
+			<property name="javax.persistence.jdbc.user" value="**" />
+			<property name="javax.persistence.jdbc.password" value="**" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect" />
+			<!-- Valores a cambiar, poner url, user, pass y dialecto -->
+
+
 			<property name="hibernate.show_sql" value="true" />
 			<property name="jadira.usertype.autoRegisterUserTypes" value="true" />
 			<property name="hibernate.enable_lazy_load_no_trans" value="false" />
